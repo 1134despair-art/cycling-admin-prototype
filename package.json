@@ -1,0 +1,12 @@
+{
+  "name": "cycling-admin-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "RuoYi-Vue3-master/RuoYi-Vue3-master"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=ruoyi",
+    "build:prod": "npm run build:prod --workspace=ruoyi && node scripts/copy-dist.mjs"
+  }
+}

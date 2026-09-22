@@ -1,0 +1,22 @@
+# Dependencies and generated builds
+**/node_modules/
+**/dist/
+**/.vite/
+**/.cache/
+
+# Local runtime files
+**/logs/
+**/tmp/
+**/*.log
+**/*.err
+**/*.pid
+
+# Deployment archives and inspection output
+*.zip
+.codex-sheet-inspect/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
